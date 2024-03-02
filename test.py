@@ -31,7 +31,7 @@ for key , value in ja_jp_data.items():
     if 2 < len(value):
         mae = ""
         ato = ""
-        if value[0] == "§":
+        if value[0] == '§':
             mae = value[:2]
             value = value[2:]
         #print(value[len(value)-2])
