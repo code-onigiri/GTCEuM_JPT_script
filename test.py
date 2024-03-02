@@ -37,7 +37,7 @@ for key , value in ja_jp_data.items():
         #print(value[len(value)-2])
         if value[len(value)-2] == '§':
             t = t + 1
-            ato = value[len(value)-2:]
+            ato = value[len(value)-3:]
             value = value[:(len(value)-3)]
         for en_us_key, en_us_value in en_us_lang_dict.items():
             if value == en_us_value:
